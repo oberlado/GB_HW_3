@@ -1,0 +1,13 @@
+package les1;
+//Есть классы Fruit -> Apple, Orange;(больше фруктов не надо)
+abstract class Fruit {
+    private float weight;
+
+    Fruit(float weight) {
+        this.weight = weight;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+}
